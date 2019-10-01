@@ -1,0 +1,142 @@
+/* primary-colors */
+@graphite: #3B3B48;
+@chalkBlue: #CCDAD7;
+
+body {
+  background: @graphite;
+  color: @chalkBlue;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title{
+  padding: 4px 15px 4px 15px;
+  position: absolute;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 32px;
+  top: 0px;
+  left: 50%;
+  margin-left: -150px;
+  color: @graphite;
+  background: @chalkBlue;
+}
+
+.toast {
+  padding: 6px 8px 6px 8px;
+  position: absolute;
+  font-family: 'Archivo Black', sans-serif;
+  bottom: 2%;
+  left: 50%;
+  margin-left: -166px;
+  color: @graphite;
+  background: @chalkBlue;
+}
+
+#wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.time-container {
+  flex-grow: 1;
+  height: 100%;
+}
+
+#work-time-container {
+  border-right: 0.5px solid @chalkBlue;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#rest-time-container {
+  border-left: 0.5px solid @chalkBlue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: @graphite;
+  border: 1px solid @chalkBlue;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -11px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  transform: scale(1.05);
+}
+
+.play-pause {
+  height: 30px;
+  width: 30px;
+}
+
+.setup-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-up {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+
+  border-bottom: 7px solid @chalkBlue;
+}
+
+.arrow-down {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+
+  border-top: 7px solid @chalkBlue;
+}
+
+.label {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 22px;
+}
+
+#reset-container {
+  width: 30px;
+  height: 30px;
+  margin-left: -1px;
+  top: 60%;
+}
+
+.reset {
+  width: 12px;
+  height: 12px;
+}
