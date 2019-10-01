@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet/less" href="../css/style.less">
+    <link rel="stylesheet/less" href="../css/pallette.less">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+
+      <div id="color-pallette_container">
+        <div class="color-container" id="graphite" title="Graphite"></div>
+        <div class="color-container" id="chili-pepper" title="Chili Pepper"></div>
+        <div class="color-container" id="marsala" title="Marsala"></div>
+        <div class="color-container" id="living-coral" title="Living Coral"></div>
+        <div class="color-container" id="mimosa" title="Mimosa"></div>
+        <div class="color-container" id="greenery" title="Greenery"></div>
+        <div class="color-container" id="emerald" title="Emerald"></div>
+        <div class="color-container" id="turquoise" title="Turquoise"></div>
+        <div class="color-container" id="serenity" title="Serenity"></div>
+        <div class="color-container" id="blue-iris" title="Blue Iris"></div>
+        <div class="color-container" id="ultra-violet" title="Ultra Violet"></div>
+        <div class="color-container" id="chalk-blue" title="Chalk"></div>
+      </div>
+
+
+
+      <div id="work-time-container" class="time-container">
+        <p class="label"> WORK </p>
+
+        <div id="work" class="setup-container">
+
+          <div class="spinner-container">
+            <div id="increment-work-hours" class="arrow-up"></div>
+            <div class="time"> <p id="work-hours">00</p> </div>
+            <div id="decrement-work-hours" class="arrow-down"></div>
+          </div>
+
+          <div><p>:</p></div>
+
+          <div class="spinner-container">
+            <div id="increment-work-minutes" class="arrow-up"></div>
+            <div class="time"> <p id="work-minutes">00</p> </div>
+            <div id="decrement-work-minutes" class="arrow-down"></div>
+          </div>
+
+          <div><p>:</p></div>
+
+          <div class="spinner-container">
+            <div id="increment-work-seconds" class="arrow-up"></div>
+            <div class="time"> <p id="work-seconds">00</p> </div>
+            <div id="decrement-work-seconds" class="arrow-down"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="rest-time-container" class="time-container">
+        <p class="label"> REST </p>
+
+        <div id="rest" class="setup-container">
+
+        <div class="spinner-container">
+          <div id="increment-rest-hours" class="arrow-up"></div>
+          <div class="time"> <p id="rest-hours">00</p> </div>
+          <div id="decrement-rest-hours" class="arrow-down"></div>
+        </div>
+
+        <div><p>:</p></div>
+
+        <div class="spinner-container">
+          <div id="increment-rest-minutes" class="arrow-up"></div>
+          <div class="time"> <p id="rest-minutes">00</p> </div>
+          <div id="decrement-rest-minutes" class="arrow-down"></div>
+        </div>
+
+        <div><p>:</p></div>
+
+        <div class="spinner-container">
+          <div id="increment-rest-seconds" class="arrow-up"></div>
+          <div class="time"> <p id="rest-seconds">00</p> </div>
+          <div id="decrement-rest-seconds" class="arrow-down"></div>
+        </div>
+
+        </div>
+      </div>
+
+      <!-- *** -->
+
+      <p class="title">INTERVAL TIMER</p>
+
+      <div id="play-pause-container" class="circle">
+        <img class="play-pause">
+      </div>
+
+      <div id="reset-container" class="circle">
+        <img class="reset">
+      </div>
+      <!-- *** -->
+
+    </div>
+
+    <script src="../js/changeBackground.js"></script>
+    <script src="../js/playPauseReset.js"></script>
+    <script src="../js/alterTime.js"></script>
+    <script src="../js/toast.js"></script>
+    <script src="../js/colors.js"></script>
+    <script src="../js/images.js"></script>
+
+  </body>
+
+</html>
