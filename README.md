@@ -35,7 +35,8 @@ Clone this repo to your local machine using `https://github.com/Ivaylo-Georgiev/
 ![Emerald Background](https://github.com/Ivaylo-Georgiev/Interval-Timer/blob/master/emerald.png)   
 
 ## Dual Timer
-The timer can be set for both work and rest. After the time for work is over, the rest timer is triggered and so on. Countdown can be paused or reset at any time.
+Two timers are running simultaneously. The first tracks work time and is focused. It displays how much time has passed, since it had started. The second timer tracks how much time is left until rest time and is blurred. When work time passes out, the focus is switched between timers. This process continues, until the user pauses or resets the timers.
+
 ![Timer Demo](https://github.com/Ivaylo-Georgiev/Interval-Timer/blob/master/timer-demo.gif) 
 
 > _Made with 🔥 in 2019_
